@@ -1,0 +1,15 @@
+/home/paulbamberg22/.rbenv/versions/2.2.2/bin/ruby -r ./siteconf20150831-9308-doaieq.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling context.c
+compiling threads.c
+compiling byebug.c
+compiling locker.c
+compiling breakpoint.c
+linking shared-object byebug/byebug.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20150831-9308-17al7km/byebug
